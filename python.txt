@@ -1,0 +1,24 @@
+| Data Type | Example        | Use                     |
+| --------- | -------------- | ----------------------- |
+| `int`     | `age = 20`     | Numbers without decimal |
+| `float`   | `pi = 3.14`    | Decimal numbers         |
+| `str`     | `name = "Ali"` | Text (string)           |
+| `bool`    | `is_ai = True` | True or False values    |
+# String
+name = "Abdul Rafay"
+print("My name is", name)
+
+# Integer
+age = 22
+print("I am", age, "years old")
+
+# Float
+height = 5.8
+print("My height is", height)
+
+# Boolean
+is_learning = True
+print("Learning AI:", is_learning)
+print(type(name))        # <class 'str'>
+print(type(age))         # <class 'int'>
+print(type(is_learning)) # <class 'bool'>
